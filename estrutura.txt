@@ -17,3 +17,8 @@ projeto-completo/
     │   ├── context/      # Contextos (como AuthContext)
     │   └── navigation/   # Configuração de navegação
     ├── package.json      # Dependências do frontend
+
+
+.env:"MONGODB_URI=mongodb+srv://Derick:Basquete-1@cluster0.dbu0v.mongodb.net/userApp
+JWT_SECRET=seu_segredo_super_secreto
+PORT=3000"
