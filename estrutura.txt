@@ -1,0 +1,19 @@
+projeto-completo/
+├── backend/               # Tudo relacionado ao servidor Node.js
+│   ├── server.js          # Arquivo principal do backend
+│   ├── package.json       # Dependências do backend
+│   ├── models/           # Modelos do MongoDB
+│   │   └── User.js       # Modelo de usuário
+│   ├── controllers/      # Lógica das rotas
+│   ├── routes/           # Definição das rotas
+│   ├── middleware/       # Middlewares (como autenticação)
+│   └── .env              # Variáveis de ambiente
+└── frontend/             # Aplicativo React Native
+    ├── App.js            # Ponto de entrada
+    ├── src/              # Código fonte
+    │   ├── components/   # Componentes reutilizáveis
+    │   ├── screens/      # Telas do aplicativo
+    │   ├── services/     # Serviços (API, autenticação)
+    │   ├── context/      # Contextos (como AuthContext)
+    │   └── navigation/   # Configuração de navegação
+    ├── package.json      # Dependências do frontend
